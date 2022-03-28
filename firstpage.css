@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .p-edit {
+    text-align: left;
+  }
+}
+
+.p-edit {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+
+.btn {
+}
+
+.first-div {
+  text-align: center;
+}
+
+.second-div {
+margin: 100px 200px 150px 200px;
+}
+@media screen and (max-width: 768px) {
+  .second-div {
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+
+.third-div {
+  margin: 50px 200px 50px 200px;
+}
+@media screen and (max-width: 768px) {
+  .third-div {
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+.fourth-div {
+  text-align: center;
+}
+
+.fifth-div {
+  text-align: center;
+  margin: 100px 0px 100px 0px;
+}
+
+.pic-edit {
+  height: 350px;
+  width: 350px;
+  margin: 20px 0px 50px 20px;
+}
+@media screen and (max-width: 768px) {
+  .pic-edit {
+  max-width: 100%;
+  height: 300px;
+  width: 300px;
+ }
+}
+
+.pic-edit2 {
+  text-align: center;
+  float: right;
+  margin-right: 20px;
+  height: 350px;
+  width: 350px;
+}
+@media screen and (max-width: 768px) {
+  .pic-edit2 {
+    max-width: 100%;
+   float: none;
+   height: 250px;
+   width: 250px;
+ }
+ }
+
+.pic-edit3 {
+  float: left;
+  height: 350px;
+  width: 350px;
+}
+@media screen and (max-width: 768px) {
+  .pic-edit3 {
+   float: none;
+   max-width: 100%;
+   height: 250px;
+   width: 250px;
+ }
+ }

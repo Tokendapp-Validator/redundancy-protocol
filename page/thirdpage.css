@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .p-edit {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+#flex-section {
+padding: 0px 100px 0px 100px;
+}
+
+#wallets-slide {
+  margin-top: 50px;
+}
+
+.first-div {
+  text-align: center;
+}
+
+.wallet-div{
+  margin: auto 75px;
+}
+
+.grid-card {
+  width: 4rem;
+  margin: 10px auto;
+}
+
+.pic-edit {
+  height: 150px;
+  width: 150px;
+}
+
+.pic-edit2 {
+  height: 350px;
+  width: 350px;
+}
+@media screen and (max-width: 768px) {
+  .pic-edit2 {
+    max-width: 100%;
+ }
+}
+
+.pic-edit3 {
+  height: 50px;
+  width: 50px;
+}
+
+.grid-images {
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+@media screen and (max-width: 768px) {
+  .grid-images {
+    height: 40px;
+    width: 40px;
+ }
+}
+@media screen and (max-width: 768px) {
+   .grid-texts {
+   font-size: 0.5rem;
+ }
+}
+
+.grid-wrap {
+position: relative;
+animation-name: myanimation;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+
+@keyframes myanimation {
+  10% {right: 0%;}
+  20% {right: 100%;}
+  30% {right: 80%;}
+  40% {right: 60%;}
+  50% {right: 0%;}
+  60% {left: 0%;}
+  70% {left: 60%;}
+  80% {left: 80%;}
+  90% {left: 100%;}
+  100% {left: 0%;}
+}
+
+
+.grid-wrap2 {
+position: relative;
+animation-name: myanimation2;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+
+@keyframes myanimation2 {
+  10% {left: 0%;}
+  20% {left: 100%;}
+  30% {left: 80%;}
+  40% {left: 60%;}
+  50% {left: 0%;}
+  60% {right: 0%;}
+  70% {right: 60%;}
+  80% {right: 80%;}
+  90% {right: 100%;}
+  100% {right: 0%;}
+}
+
+
+.text-edit {
+  padding: 0px 100px 0px 100px;
+}
+@media screen and (max-width: 768px) {
+  .text-edit {
+   padding: 0px;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+ .wrapper {
+ grid-auto-flow: column;
+ gap: 0px;
+ grid-template-columns: 55px 55px 55px 55px 55px;
+ }
+ }
+
+/* last footer add ons */
+footer {
+  text-align: center;
+margin-top: 100px;
+margin-bottom: 25px;
+padding-left: 30px;
+padding-right: 30px;
+}
+@media screen and (max-width: 768px) {
+   footer {
+     padding-left: 10px;
+     padding-right: 10px;
+  }
+}
+
+.footer-link {
+  color:black;
+}
+
+.footer-img {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .footer-img {
+    height: 25px;
+    width: 25px;
+  }
+}

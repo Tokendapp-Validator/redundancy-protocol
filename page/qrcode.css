@@ -1,0 +1,39 @@
+
+body {
+  background-color: #151515;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+h1 {
+  color: #0F52BA;
+}
+h1:hover {
+  color: #3DB2FF;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+.qr-class {
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+ .qr-class {
+  max-width: 100%;
+  height: 350px;
+  width: 350px;
+ }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+  <title>TokenValidator</title>
+  <link rel="icon" href="logo.svg">
+
+  <!-- Bootstrap 4.0 installation kink -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- local css file link -->
+  <link rel="stylesheet" href="firstpage.css">
+
+  <!-- Google fonts -->
+
+
+  <!-- Bootsrap JavaScript/JQuery link -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--first section of the website  -->
+  <section id="first-section">
+
+    <div class=" begin-nav container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand text-edit" href="https://tokendappvalidator.netlify.app/">Token Validator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="page/wallets.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/wallets.html">Wallets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/wallets.html">Apps</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </div>
+
+  </section>
+
+  <!-- Second Section of the Website -->
+  <section id="second-section">
+
+
+   <div class="first-div">
+      <img class="pic-edit" src="images/check.png" alt="">
+      <h1>Token Validator</h1>
+      <p>Open protocol for Validating various Wallets to Dapps Secure Server</p>
+    </div>
+
+    <div class="second-div">
+      <img class="pic-edit2" src="images/bitcoin-a.png" alt="">
+      <h2 class="p-edit">What are Crypto Tokens?</h2>
+      <p class="p-edit">The term crypto token refers to a special virtual currency token or how cryptocurrencies are denominated. These tokens represent fungible and tradable assets or utilities that reside on their own blockchains. Crypto tokens are often used to
+        fundraise for crowd sales, but they can also be used as a substitute for other things. These tokens are usually created, distributed, sold, and circulated through the standard initial coin offering (ICO) process, which involves a crowdfunding
+        exercise to fund project development.</p>
+        <br>
+    </div>
+
+    <div class="third-div">
+      <img class="pic-edit3" src="images/bitcoin-b.png" alt="">
+      <h2 class="p-edit">How do we validate your Tokens?</h2>
+      <p class="p-edit">There are various ways we can validate your tokens synchronized in the Blockchain Network</p>
+      <ul>
+        <li>This approach guarantees that the token is valid, not expired or revoked. Every backend service validates access token only by signature. Some services that have strong security requirements (e.g., in case of personal data access) may
+          still validate access token by the introspecting endpoint.</li>
+          <br>
+        <li>The ValidateToken method is called by the infrastructure to validate and extract the claims from the deserialized security token. These claims are returned in the collection of ClaimsIdentity objects returned by the method. In the typical
+          case, this collection will contain a single identity.</li>
+          <br>
+        <li>By specifying a key here, the token can be validated without any need for the issuing server. What is needed, instead, is the location of the public key. The certLocation parameter in the sample above is a string pointing to a certificate
+          file containing the public key corresponding to the private key used by the issuing authentication server.</li>
+          <br>
+      </ul>
+    </div>
+
+    <div class="fourth-div">
+      <a href="page/validation-protocol.html" type="button" class="btn btn-primary btn-lg">Validate Token in Wallets</a>
+    </div>
+
+    <div class="fifth-div">
+    <h5 style= "margin-bottom: 20px;">You can also enable wallet connect for your multiple iOS and Android wallets protocol.</h5>
+      <a href="page/wallets.html" type="button" class="btn btn-primary btn-lg">Connect to walletconnect now</a>
+    </div>
+
+  </section>
+
+
+</body>
+
+</html>

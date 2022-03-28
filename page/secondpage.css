@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #AAAAAA;
+  text-align: center;
+}
+
+.textedit-css {
+  margin: 30px auto 50px auto;
+}
+@media screen and (max-width: 768px) {
+  .textedit-css {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+h2:hover {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+h5 {
+  color: #185ADB;
+  margin: 30px auto 50px auto;
+}
+
+h5:hover {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+.form-auto {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.form-auto {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}
